@@ -16,7 +16,7 @@ The system is designed to handle core e-commerce functionalities, such as:
 
 ## Structure
 - **Database-schema**: Contains the database schema and relationships.
-  - [`Schema.sql`](Database-schema/schema.sql): SQL script for creating tables.
+  - [`Schema.sql`](Database-Schema/schema.sql): SQL script for creating tables.
   - [`ER-diagram.png`](Database-Schema/ERD.png): Entity-Relationship diagram of the database.
   - [`Relationships.md`](Database-schema/relationships.md): Detailed documentation of entity relationships.
 - **queries**: Contains example SQL queries.
