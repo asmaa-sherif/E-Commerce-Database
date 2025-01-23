@@ -20,9 +20,9 @@ The system is designed to handle core e-commerce functionalities, such as:
   - [`ER-diagram.png`](https://github.com/asmaa-sherif/E-Commerce-Database/blob/main/Database%20Schema/ERD.png): Entity-Relationship diagram of the database.
   - [`Relationships.md`](https://github.com/asmaa-sherif/E-Commerce-Database/blob/main/Database%20Schema/relationships.md): Detailed documentation of entity relationships.
 - **queries**: Contains example SQL queries.
-  - [`create-database.sql`](queries/create-database.sql): Script to initialise the database.
-  - [`sample-queries.sql`](queries/sample-queries.sql): Queries for common operations like retrieving customers, products, and orders.
-  - [`advanced-queries.sql`](queries/advanced-queries.sql): Advanced SQL queries for analytics and reporting.
+  - [`revenue-daily.sql`](revenue-daily.sql): SQL for daily revenue report.
+  - [`top-products-monthly.sql  `](top-products-monthly.sql  ): SQL for monthly top-selling products.
+  - [`high-value-customers.sql`](high-value-customers.sql): SQL for high-value customers
 
 ## Quick Start
 1. Clone this repository:
