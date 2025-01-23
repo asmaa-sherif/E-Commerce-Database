@@ -8,6 +8,6 @@ SELECT
 FROM 
     Product
 WHERE 
-    LOWER(Name) LIKE '%camera%' OR
-    LOWER(ShortDesc) LIKE '%camera%' OR
-    LOWER(LongDesc) LIKE '%camera%';
+    ProductName LIKE '%camera%' OR
+    ShortDescription LIKE '%camera%' OR
+    LongDescription LIKE '%camera%';
