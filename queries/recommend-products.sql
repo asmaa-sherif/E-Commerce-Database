@@ -3,21 +3,21 @@ SELECT p.product_id,
       p.name
   FROM product p
   LEFT JOIN order_details od -- left join to get all products including the not purchased ones
-  ON p.product_id = od.product_id
-  WHERE p.category_id =
-      (SELECT p2.category_id
+  ON p.productID = od.productID
+  WHERE p.categoryID =
+      (SELECT p2.categoryID
        FROM product p2
-       WHERE product_id = '261') -- Get Category_id
+       WHERE productID = '261') -- Get CategoryID
   AND p.author_id =
-      (SELECT p2.author_id
+      (SELECT p2.authorID
        FROM product p2
-       WHERE product_id = '261') -- Get Author_id
+       WHERE productID = '261') -- Get AuthorID
   AND p.product_id NOT IN
       (SELECT od.product_id
        FROM orders o
-       JOIN order_details od ON o.order_id = od.order_id
-       WHERE o.customer_id = '18')-- Get Purchased Products
-  GROUP BY p.product_id,
+       JOIN orderDetails od ON o.orderID = od.orderID
+       WHERE o.customerID = '18')-- Get Purchased Products
+  GROUP BY p.productID,
            p.name
   ORDER BY sum(od.quantity)DESC, sum(od.quantity*od.unit_price)
   LIMIT 5;
