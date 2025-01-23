@@ -34,6 +34,10 @@ The `queries` folder contains individual SQL scripts for various tasks:
   - [`search-products-camera.sql`](https://github.com/asmaa-sherif/E-Commerce-Database/blob/main/queries/search-products-camera.sql): Search for products with the word "camera".
 - **Recommendation Queries**:
   - [`recommend-products.sql`](https://github.com/asmaa-sherif/E-Commerce-Database/blob/main/queries/recommend-products.sql): Suggest popular products in the same category by the same author.
-
+- **Triggers and Transactions**:
+  - [`trigger-sale-history.sql`](https://github.com/asmaa-sherif/E-Commerce-Database/blob/main/queries/trigger-sale-history.sql): Create a sale history record on order insertion.
+  - [`lock-product-quantity.sql`](https://github.com/asmaa-sherif/E-Commerce-Database/blob/main/queries/lock-product-quantity.sql): Lock the Quantity field for a specific product.
+  - [`lock-product-row.sql`](https://github.com/asmaa-sherif/E-Commerce-Database/blob/main/queries/lock-product-row.sql): Lock the entire row for a specific product.
+    
 ---
 
