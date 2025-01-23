@@ -79,6 +79,6 @@
 
 Refer to the diagram below for a visual representation of the database entities and their relationships.
 
-![Entity Relationship Diagram](https://github.com/asmaa-sherif/E-Commerce-Database/blob/main/Database%20Schema/ERD.png)
+![Entity Relationship Diagram](https://github.com/asmaa-sherif/E-Commerce-Database/blob/main/Database%20Schema/ER%20Diagram.png)
 
 ---
