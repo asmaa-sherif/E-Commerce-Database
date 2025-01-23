@@ -29,7 +29,7 @@ The `queries` folder contains individual SQL scripts for various tasks:
   - [`top-products-monthly.sql`](https://github.com/asmaa-sherif/E-Commerce-Database/blob/main/queries/top-products-monthly.sql): SQL for monthly top-selling products.
   - [`high-value-customers.sql`](https://github.com/asmaa-sherif/E-Commerce-Database/blob/main/queries/high-value-customers.sql): SQL for identifying high-value customers.
 - **Updated Database Schema**:
-  - [`insert-author-table.sql`](https://github.com/asmaa-sherif/E-Commerce-Database/blob/main/queries/high-value-customers.sql): SQL script for creating the Author table.
+  - [`insert-author-table.sql`](https://github.com/asmaa-sherif/E-Commerce-Database/blob/main/queries/insert-author-table.sql): SQL script for creating the Author table.
 - **Search Queries**:
   - [`search-products-camera.sql`](https://github.com/asmaa-sherif/E-Commerce-Database/blob/main/queries/search-products-camera.sql): Search for products with the word "camera".
 - **Recommendation Queries**:
