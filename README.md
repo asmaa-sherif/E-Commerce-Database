@@ -19,7 +19,7 @@ The system is designed to handle core e-commerce functionalities, such as:
 
 ### **Database-Schema**
 - [`Schema.sql`](https://github.com/asmaa-sherif/E-Commerce-Database/blob/main/Database%20Schema/schema.sql): SQL script for creating tables.
-- [`ER-diagram.png`](https://github.com/asmaa-sherif/E-Commerce-Database/blob/main/Database%20Schema/ERD.png): Entity-Relationship diagram of the database.
+- [`ER-diagram.png`](https://github.com/asmaa-sherif/E-Commerce-Database/blob/main/Database%20Schema/ER%20Diagram.png): Entity-Relationship diagram of the database.
 - [`Relationships.md`](https://github.com/asmaa-sherif/E-Commerce-Database/blob/main/Database%20Schema/relationships.md): Detailed documentation of entity relationships.
 
 ### **Queries**
